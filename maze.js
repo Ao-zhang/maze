@@ -317,7 +317,7 @@ requestAnimationFrame( function() {
 } 
 // 迷宫2找当前可走的方向
 function solveMaze2(index=0) {
-     console.log(start[index].x);
+  //   console.log(start[index].x);
     if( start[index].x == end[index].x && start[index].y == end[index].y ) {
         for( var i = 0; i < cols; i++ ) {
             for( var j = 0; j < rows; j++ ) {
