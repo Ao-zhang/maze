@@ -15,7 +15,7 @@
                 <div id="menu" class="column col-2">
                     <ul class="nav sidebar">
                         <li class="nav-item">
-                            <a href="#">Getting Started</a>
+                            <a href="#">Getting Started</a>    
                             <ul class="nav">
                             <li class="nav-item">
                                 <a href="#">Introduction</a>
@@ -26,7 +26,7 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a href="#">Maze</a>
+                            <a href="#"><p align=center><font style="font-size: 40pt; filter: shadow(color=black); width: 71.27%; color: #e4dc9b; line-height: 150%; font-family: 华文彩云; height: 60px"><b>Maze</b></font></p></a>
                         </li>
                     </ul>                
                 </div>
@@ -46,15 +46,17 @@
                                             <input id="chkAnimated" type="checkbox" class="input-sm" name="maze" checked><i class="form-icon"></i>Animated
                                         </label>
                                         <span class="input-group-addon addon-sm">Columns:</span>
-                                        <input id="cols" class="form-input input-sm" type="number" placeholder="90" value="90">
+                                        <input id="cols" class="form-input input-sm" type="number" placeholder="60" value="60">
                                         <span class="input-group-addon addon-sm">Rows:</span>
-                                        <input id="rows" class="form-input input-sm" type="number" placeholder="30" value="30">
+                                        <input id="rows" class="form-input input-sm" type="number" placeholder="40" value="40">
                                         <span class="input-group-addon addon-sm">Density:</span>
                                         <input id="density" class="form-input input-sm" type="number" placeholder="60" value="60" disabled>
                                         <button id="btnCreateMaze" class="btn btn-sm input-group-btn" onclick="onCreate()">Create</button>
+                                        <button id="btnClear" class="btn btn-sm input-group-btn" onclick="onClear()">Clear</button>
                                     </div> 
                                 </div>
-                                <div id="maze" class="column col-12"></div>
+                                <div id="maze1" class="column col-6"></div>
+                                <div id="maze2" class="column col-6"></div>
                                 <div id="footer" class="column col-12">Footer</div>        
                             </div>
                         </div>
